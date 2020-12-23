@@ -1,7 +1,7 @@
 Whole process: Grammar_content -> State_map  
 &nbsp;·&nbsp;step1: Take out keyword.  
 &nbsp;·&nbsp;step2: Deal with multi-sentences.  
-&nbsp;·&nbsp;step3: Generate state map.  
+&nbsp;·&nbsp;step3: Deal with left recursion(Direct and Indirect).  
 Then use map machine can check if input is legal.  
   
 Grammar content rules:  
