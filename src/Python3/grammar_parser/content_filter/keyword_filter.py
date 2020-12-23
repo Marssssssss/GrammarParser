@@ -16,7 +16,7 @@ STATE_MAP = {
 	("", 0): (True, 0),
 }
 IDENT_SIGN = "<>\\"
-CAN_QUIT_STATE = [0]
+CAN_QUIT_STATE = [0, 2, 3]
 CAN_STORE_STATE = [1, 3]
 
 
@@ -65,7 +65,7 @@ class KeywordFilter(object):
 		if next_tup is None:
 			import traceback
 			traceback.print_stack()
-			raise Exception("Error occurred when filter keyword.")
+			raise Exception("[Error]occurred when filter keyword.")
 		succ = next_tup[0]
 		if succ:
 			return next_tup[1]
